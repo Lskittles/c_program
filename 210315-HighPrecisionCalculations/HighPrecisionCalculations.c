@@ -118,11 +118,6 @@ int main(void){
             }
         }
         else{
-            /*
-            for(int i = 0;i < strlen(final);i++){
-                temp_1[i] = final[i];
-            }
-            */
             strcpy(temp_1, final);
             for(int i = 0;i < N + 1;i++){
                 final[i] = 0;
